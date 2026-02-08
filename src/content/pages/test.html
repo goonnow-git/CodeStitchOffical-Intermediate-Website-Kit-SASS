@@ -1,0 +1,19 @@
+---
+title: "This is the title"
+description: "This is the description"
+permalink: "/test/"
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <!-- Any page-specific tags that belong in the <head>, such as a page-specific stylesheet -->
+{% endblock %}
+
+{% block body %}
+    <!-- Page HTML goes here, without a <main> wrapper. The <main> tag is already presented in layouts/base.html -->
+	<h1>This is a new page.</h1>
+	<p>this is some text</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nobis fugit minus, itaque neque voluptatibus. Molestiae, laudantium iusto. Unde ut inventore officia molestiae voluptatem impedit quisquam quasi blanditiis reprehenderit dolore.</p>
+
+{% endblock %}
